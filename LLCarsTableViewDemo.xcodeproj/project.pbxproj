@@ -13,9 +13,14 @@
 		B3DC1FA81DE2DB16002FBF5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DC1FA61DE2DB16002FBF5B /* Main.storyboard */; };
 		B3DC1FAA1DE2DB16002FBF5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DC1FA91DE2DB16002FBF5B /* Assets.xcassets */; };
 		B3DC1FAD1DE2DB16002FBF5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DC1FAB1DE2DB16002FBF5B /* LaunchScreen.storyboard */; };
+		B3DC1FB51DE2DD4F002FBF5B /* cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3DC1FB41DE2DD4F002FBF5B /* cars.plist */; };
+		B3DC1FB81DE2DE72002FBF5B /* LLCarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC1FB71DE2DE72002FBF5B /* LLCarGroup.m */; };
+		B3DC1FBB1DE2DE8C002FBF5B /* LLCar.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DC1FBA1DE2DE8C002FBF5B /* LLCar.m */; };
+		F497F2225B231F8CD03A0236 /* libPods-LLCarsTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CECF9B9D6B36CE4DD14A2806 /* libPods-LLCarsTableViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E155984A0CD8EFBF8DCBE90 /* Pods-LLCarsTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLCarsTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLCarsTableViewDemo/Pods-LLCarsTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B3DC1F9A1DE2DB16002FBF5B /* LLCarsTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLCarsTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3DC1F9E1DE2DB16002FBF5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3DC1FA01DE2DB16002FBF5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,13 @@
 		B3DC1FA91DE2DB16002FBF5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3DC1FAC1DE2DB16002FBF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3DC1FAE1DE2DB16002FBF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DC1FB41DE2DD4F002FBF5B /* cars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars.plist; sourceTree = "<group>"; };
+		B3DC1FB61DE2DE72002FBF5B /* LLCarGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCarGroup.h; sourceTree = "<group>"; };
+		B3DC1FB71DE2DE72002FBF5B /* LLCarGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCarGroup.m; sourceTree = "<group>"; };
+		B3DC1FB91DE2DE8C002FBF5B /* LLCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCar.h; sourceTree = "<group>"; };
+		B3DC1FBA1DE2DE8C002FBF5B /* LLCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCar.m; sourceTree = "<group>"; };
+		CECF9B9D6B36CE4DD14A2806 /* libPods-LLCarsTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLCarsTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CA70C882E3C8387196FCA0 /* Pods-LLCarsTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLCarsTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLCarsTableViewDemo/Pods-LLCarsTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F497F2225B231F8CD03A0236 /* libPods-LLCarsTableViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +57,8 @@
 			children = (
 				B3DC1F9C1DE2DB16002FBF5B /* LLCarsTableViewDemo */,
 				B3DC1F9B1DE2DB16002FBF5B /* Products */,
+				D260D4A6FADCBBCCC2E41231 /* Pods */,
+				DD8A4EF8F87B5CAAAF48D397 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +77,12 @@
 				B3DC1FA11DE2DB16002FBF5B /* AppDelegate.m */,
 				B3DC1FA31DE2DB16002FBF5B /* ViewController.h */,
 				B3DC1FA41DE2DB16002FBF5B /* ViewController.m */,
+				B3DC1FB61DE2DE72002FBF5B /* LLCarGroup.h */,
+				B3DC1FB71DE2DE72002FBF5B /* LLCarGroup.m */,
+				B3DC1FB91DE2DE8C002FBF5B /* LLCar.h */,
+				B3DC1FBA1DE2DE8C002FBF5B /* LLCar.m */,
 				B3DC1FA61DE2DB16002FBF5B /* Main.storyboard */,
+				B3DC1FB41DE2DD4F002FBF5B /* cars.plist */,
 				B3DC1FA91DE2DB16002FBF5B /* Assets.xcassets */,
 				B3DC1FAB1DE2DB16002FBF5B /* LaunchScreen.storyboard */,
 				B3DC1FAE1DE2DB16002FBF5B /* Info.plist */,
@@ -79,6 +99,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D260D4A6FADCBBCCC2E41231 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E155984A0CD8EFBF8DCBE90 /* Pods-LLCarsTableViewDemo.debug.xcconfig */,
+				F4CA70C882E3C8387196FCA0 /* Pods-LLCarsTableViewDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD8A4EF8F87B5CAAAF48D397 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CECF9B9D6B36CE4DD14A2806 /* libPods-LLCarsTableViewDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3DC1FB11DE2DB16002FBF5B /* Build configuration list for PBXNativeTarget "LLCarsTableViewDemo" */;
 			buildPhases = (
+				FCBD5A7243D91E65835B2F6F /* [CP] Check Pods Manifest.lock */,
 				B3DC1F961DE2DB16002FBF5B /* Sources */,
 				B3DC1F971DE2DB16002FBF5B /* Frameworks */,
 				B3DC1F981DE2DB16002FBF5B /* Resources */,
+				AD96C815A3BC1E0AF4F1F0EB /* [CP] Embed Pods Frameworks */,
+				FCA5E765C56F48CC398FB9CE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,12 +177,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3DC1FAD1DE2DB16002FBF5B /* LaunchScreen.storyboard in Resources */,
+				B3DC1FB51DE2DD4F002FBF5B /* cars.plist in Resources */,
 				B3DC1FAA1DE2DB16002FBF5B /* Assets.xcassets in Resources */,
 				B3DC1FA81DE2DB16002FBF5B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD96C815A3BC1E0AF4F1F0EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLCarsTableViewDemo/Pods-LLCarsTableViewDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCA5E765C56F48CC398FB9CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LLCarsTableViewDemo/Pods-LLCarsTableViewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCBD5A7243D91E65835B2F6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3DC1F961DE2DB16002FBF5B /* Sources */ = {
@@ -151,7 +240,9 @@
 			files = (
 				B3DC1FA51DE2DB16002FBF5B /* ViewController.m in Sources */,
 				B3DC1FA21DE2DB16002FBF5B /* AppDelegate.m in Sources */,
+				B3DC1FB81DE2DE72002FBF5B /* LLCarGroup.m in Sources */,
 				B3DC1F9F1DE2DB16002FBF5B /* main.m in Sources */,
+				B3DC1FBB1DE2DE8C002FBF5B /* LLCar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +352,7 @@
 		};
 		B3DC1FB21DE2DB16002FBF5B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E155984A0CD8EFBF8DCBE90 /* Pods-LLCarsTableViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LLCarsTableViewDemo/Info.plist;
@@ -272,6 +364,7 @@
 		};
 		B3DC1FB31DE2DB16002FBF5B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4CA70C882E3C8387196FCA0 /* Pods-LLCarsTableViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LLCarsTableViewDemo/Info.plist;
@@ -300,6 +393,7 @@
 				B3DC1FB31DE2DB16002FBF5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
